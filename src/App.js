@@ -125,7 +125,7 @@ function App() {
       <div className='left-content z-50 p-8'>
         <h1 className=" font-light ">Creative Env.</h1>
         <h1 className="mt-48 text-4xl font-normal w-2/3 justify-start">
-          Glassmorphism and Three Js are awesome <br /> 
+          Glassmorphism and Three Js make content smart <br /> 
         </h1>
         <h1 className='font-thin mt-8'>Every Creator should understand this.</h1>
         <button className='mt-16 bg-gray-100 text-gray-900 px-6 py-3'>
