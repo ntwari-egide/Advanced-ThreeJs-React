@@ -54,12 +54,6 @@ function Mashmello({ layer = DEFAULT_LAYER }) {
 
   useFrame(() => (group.current.rotation.y += 0.004))
 
-//   40_mesh1_01_16_16_40_mesh1_01_16_16_0: SkinnedMesh {uuid: 'F88B1DA1-170D-4700-854E-B631AFDF9571', name: '40_mesh1_01_16_16_40_mesh1_01_16_16_0', type: 'SkinnedMesh', parent: Object3D, children: Array(0), …}
-// 40_mesh2_01_16_16_40_mesh2_01_16_16_0: SkinnedMesh {uuid: '4BAC19ED-216D-4315-8C0C-E1DEA7F51C18', name: '40_mesh2_01_16_16_40_mesh2_01_16_16_0', type: 'SkinnedMesh', parent: Object3D, children: Array(0), …}
-// 40_mesh3_01_16_16_40_mesh3_01_16_16_0: SkinnedMesh {uuid: '7E90793E-7ED7-4FD0-BBA6-40B0432504C2', name: '40_mesh3_01_16_16_40_mesh3_01_16_16_0', type: 'SkinnedMesh', parent: Object3D, children: Array(0), …}
-// 40_mesh5_01_16_16_40_mesh5_01_16_16_0: SkinnedMesh {uuid: 'A8C1AD7C-B868-45D6-9696-F181949D669D', name: '40_mesh5_01_16_16_40_mesh5_01_16_16_0', type: 'SkinnedMesh', parent: Object3D, children: Array(0), …}
-// 40_mesh6_01_16_16_40_mesh6_01_16_16_0:
-
   return (
     <group ref={group}>
       <group rotation={[-1.5707963267948963, 0, 0]} position={[0, 2, 0]}>
